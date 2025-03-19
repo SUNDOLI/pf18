@@ -32,7 +32,7 @@ body {
 
 .title h2 {
     font-size: 48px;
-    font-weight: 00;
+    font-weight: 600;
     margin-bottom: 8px;
     color: var(--text-color);
 }
