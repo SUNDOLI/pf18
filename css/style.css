@@ -108,7 +108,7 @@
         height: 100vh;
         background: #fffaef;
 
-        padding: 120px 80px;
+        padding: 120px 32px;
     }
 
     .header .gnb.on {
@@ -123,10 +123,15 @@
         left: -100%;
         width: calc(100% - 80px);
         height: 100vh;
+
     }
 
     .header .my_page.on ul {
-        left: 80px;
+        left: 40px;
+        flex-direction: column;
+        gap: 0;
+        list-style-type: disc;
+        margin-left: 16px;
     }
 
     .header .my_page ul {
